@@ -1,10 +1,11 @@
 import React from 'react'
 import Relogio from './Relogio'
 import Saudacao from './Saudacao'
+import styles from './Cabecalho.module.css'
 
 function cabecalho() {
   return (
-    <div>
+    <div className={styles.cabecalho}>
       <Saudacao/>
       <Relogio/>
     </div>
