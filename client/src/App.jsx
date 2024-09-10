@@ -1,13 +1,11 @@
 
 import './App.css';
-import Relogio from './components/Relogio';
-import Saudacao from './components/Saudacao';
+import Cabecalho from './components/cabecalho';
 
 function App() {
   return (
     <div>
-      <Saudacao/> 
-      <Relogio/>
+     <Cabecalho/>
     </div>
   );
 }
