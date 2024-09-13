@@ -4,8 +4,9 @@ function AbreviaAmbiente(props){
     if(ambiente.lenght < 2){
         return ambiente
     }
+    ambiente.splice(0,2);
     return(
-        ambiente.split(0,2).join('-')
+        ambiente.join('-')
     )
 }
 
