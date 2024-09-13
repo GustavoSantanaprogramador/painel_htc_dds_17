@@ -74,7 +74,7 @@ function TabelaAulas() {
                         <td>{aula.turma}</td>
                         <td>{<Abreviainstrutor nomeCompleto = {aula.instrutor} />}</td> 
                         <td>{<AbriviaUC unidade_curricular = {aula.unidade_curricular}/>}</td>
-                        <td>{aula.ambiente}</td> {/*</> é usado para chamar o react, já {} é usado para forçar um uso em js*/}
+                        <td>{<AbreviaAmbiente nomeAmbiente ={aula.ambiente}/>}</td> {/*</> é usado para chamar o react, já {} é usado para forçar um uso em js*/}
                     </tr>               
                      
                     
