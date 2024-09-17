@@ -1,5 +1,5 @@
 function AbreviaAmbiente(props){
-    const ambiante = props.nomeAmbiente.split('-');
+    const ambiente = props.nomeAmbiente.split('-');
     
     if(ambiente.lenght < 2){
         return ambiente
