@@ -2,6 +2,8 @@ import { useEffect, useReducer, useState } from "react"
 
 function LateralImagens() {
     const [imagens, setImagens] = useState([]);
+    const [removeLoading, setRemoveLoading] = useState(false);
+
     useEffect(()=>{
 
         carregarImagens();
@@ -20,6 +22,7 @@ function LateralImagens() {
             }
             const consulta = await resposta.json();
             setImagens(consulta);
+            setRemoveLoading(true);
         }catch(error){
             console.log('Error ao consultar aulas', error);
         }
