@@ -1,0 +1,7 @@
+.barra_navagacao a{
+    color: #fff;
+}
+.barra_navagacao a:hover{
+    color:#fff;
+    transition: 0.5s;
+}
